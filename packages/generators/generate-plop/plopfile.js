@@ -55,7 +55,7 @@ module.exports = function(plop) {
       {
         type: 'add',
         path: join(process.cwd(), 'config/policies/{{id}}.js'),
-        templateFile: 'templates/controller.js.hbs',
+        templateFile: 'templates/policy.js.hbs',
       },
     ],
   });
